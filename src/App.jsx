@@ -182,15 +182,7 @@ function App() {
                 Weather API: OpenWeatherMap API for fetching weather data.
               </li>
               <li>
-                Backend: Node.js and Express (optional if needed for any
-                server-side functionalities in the future).
-              </li>
-              <li>
-                Hosting: Deployed on Netlify or similar hosting platforms.
-              </li>
-              <li>
-                Additional Libraries: Axios for API requests, Moment.js for time
-                handling (if used).
+                Hosting: Deployed on Vercel.
               </li>
             </ul>
           </div>
