@@ -48,7 +48,7 @@ li{
 /* Navbar */
 
 .container{
-  /* text-align: center; */
+  text-align: center;
   border-radius: 10px;
   margin: 5px auto;
   width: 95%;
@@ -459,10 +459,10 @@ button:hover {
     gap: 20px;
   }
 
-  .current-weather, .weekly-forecast, .website-specifications, 
+  /* .current-weather, .weekly-forecast, 
   .user-experience, .user-guide, .future-improvements {
     width: 95%;
-  }
+  } */
 
   .weather-info {
     flex-direction: column;
