@@ -1,0 +1,153 @@
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: rgb(8, 8, 61);
+    color: whitesmoke;
+}
+
+.menuIcon {
+    display: none;
+}
+
+
+nav a.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: whitesmoke;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a.logo:hover {
+    color: rgb(40, 40, 178);
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.NavcityName {
+    width: 400px;
+    height: 32px;
+    outline: none;
+    /* border: none; */
+    padding: 2px 4px;
+    border-radius: 5px;
+    color: black;
+    /* background-color: red; */
+}
+
+.navSearchBox {
+    display: flex;
+    gap: 5px;
+}
+
+.navSearchBox button {
+    height: 32px;
+    padding: 2px 4px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 178);
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.leftNav {
+    display: flex;
+    gap: 45px;
+    /* width: 35vw; */
+    justify-content: space-around;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.leftNav.showNav {
+    transform: translateX(0);
+}
+
+.closeIcon {
+    display: none;
+}
+
+.leftNav a {
+    color: whitesmoke;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.leftNav a:hover {
+    color: rgb(40, 40, 178);
+}
+
+
+/*Utility Classes*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*media Queries*/
+
+@media screen and (max-width: 768px) {
+    nav {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftNav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        transform: translateX(-100%);
+        height: 100vh;
+        transition: all .5s ease-in-out;
+        position: fixed;
+        left: 0;
+        width: 250px;
+        background: rgb(8, 8, 61);
+        z-index: 1000;
+    }
+
+    .leftNav li {
+        transform: translate(0, -100%);
+        font-size: 1rem;
+        text-align: left;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .leftNav li a {
+        font-weight: 600;
+    }
+
+    .menuIcon {
+        display: flex;
+        position: absolute;
+        left: 1%;
+        font-size: 1.75rem;
+    }
+
+    .closeIcon {
+        display: flex;
+        position: absolute;
+        top: 2.5%;
+        right: 2.5%;
+        font-size: 1.75rem;
+    }
+
+    .showNav {
+        left: 0;
+
+    }
+}
+
+/* Navbar */

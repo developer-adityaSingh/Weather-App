@@ -1,0 +1,128 @@
+.footer {
+    background-color: rgb(8, 8, 61);
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.footer-container > div {
+    margin: 10px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+}
+
+.footer-container .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.75em;
+}
+
+.footer-logo h3 {
+    font-weight: bolder;
+    color: #4cd137;
+    margin-bottom: 10px;
+}
+
+.footer-logo h3 a {
+    text-decoration: none;
+    font-weight: inherit;
+    transition: color 0.3s;
+}
+
+.footer-logo h3 a:hover {
+    color: #9aa157;
+}
+
+.footer-container .footer-logo p {
+    color: #1ff1f5;
+    font-size: 0.9rem;
+}
+
+.footer .links {
+    color: #fff;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-links h4, .footer-socials h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #00a8ff;
+}
+
+.footer-links ul, .footer-socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li, .footer-socials ul li {
+    display: flex;
+    margin: 5px 0;
+}
+
+.footer-links ul li a, .footer-socials ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-links ul li a:hover, .footer-socials ul li a:hover {
+    color: #00a8ff;
+}
+
+.footer-socials ul li a i {
+    margin-right: 8px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #4cd137;
+    padding-top: 10px;
+    font-size: 0.85em;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #111827; /* Charcoal Black */
+        color: #D1D5DB; /* Light Gray */
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer a {
+        color: #93C5FD; /* Light Blue */
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+        color: #3B82F6; /* Sky Blue on hover */
+    }
+
+}
