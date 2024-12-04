@@ -40,23 +40,23 @@ const Footer = () => {
                             <h4>Follow Us</h4>
                             <ul>
                                 <li>
-                                    <a href="https://facebook.com/aryan.kumar.2505" target="_blank" rel="noreferrer">
+                                    <a href="#" target="_blank" rel="noreferrer">
                                         <i className="fab fa-facebook"></i> Facebook
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://x.com/_aryankofficial" target="_blank" rel="noreferrer">
+                                    <a href="https://x.com/shubhangam_22?t=tULzCOoELBjdtVS-C3KcQg&s=09" target="_blank" rel="noreferrer">
                                         <i className="fab fa-twitter"></i> Twitter
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://instagram.com/_aryankumarofficial" target="_blank"
+                                    <a href="https://www.instagram.com/shubhangam_here/profilecard/?igsh=Z2prcmIzaW83MTFo" target="_blank"
                                        rel="noreferrer">
                                         <i className="fab fa-instagram"></i> Instagram
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/aryankumarofficial" target="_blank" rel="noreferrer">
+                                    <a href="https://github.com/developer-adityaSingh" target="_blank" rel="noreferrer">
                                         <i className="fab fa-github"></i> GitHub
                                     </a>
                                 </li>
